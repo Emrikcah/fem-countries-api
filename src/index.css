@@ -10,6 +10,10 @@ html {
    body {
       @apply font-nunito bg-light-mode-bg dark:bg-dark-mode-bg
    }
+
+   nav{
+      @apply dark:bg-dark-mode-elements
+   }
 }
 
 .container {

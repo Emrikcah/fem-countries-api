@@ -1,10 +1,11 @@
 import React from 'react'
-import Nav from '../components/Nav'
+import CardList from '../components/CardList'
+
 
 const Home = () => {
   return (
     <>
-      <Nav/>
+      <CardList/>
     </>
   )
 }

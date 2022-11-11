@@ -5,7 +5,7 @@ const AppContext = React.createContext();
 
 
 const AppProvider = ({children}) =>{
-  //state used in the themeswitcher
+  //state used in themeswitcher.js and Nav.js
   const [theme, setTheme] = useState('light');
 
 
