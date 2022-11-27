@@ -2,7 +2,9 @@ import React from 'react'
 
 const FilterBox = () => {
   return (
-    <div>FilterBox</div>
+    <form className='rounded w-[200px]'>
+      <select name="filter-by-region" id="filter-by-region"></select>
+    </form>
   )
 }
 

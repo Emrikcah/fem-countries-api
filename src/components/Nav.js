@@ -9,7 +9,7 @@ const Nav = () => {
 
    return (
       <nav className="shadow-md">
-         <div className="container">
+         <div className="container mx-auto bg-red-600">
             <div className="flex justify-between items-center py-[30px] px-4 md:py-6 md:px-20">
                <Link to="/">
                   <h1 className="text-sm md:text-2xl font-extrabold text-light-mode-text dark:text-white">Where in the world?</h1>

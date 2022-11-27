@@ -14,9 +14,15 @@ html {
    nav{
       @apply dark:bg-dark-mode-elements
    }
+
+   .li-styles{
+      @apply text-light-mode-text dark:text-white text-sm
+   }
+
+   
 }
 
-.container {
+/* .container {
    max-width: 1440px;
    margin-inline: auto;
-}
+} */
