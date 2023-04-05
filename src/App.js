@@ -10,7 +10,7 @@ function App() {
          <Nav />
          <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="country/:id" element={<SingleCountry />} />
+            <Route path="/country/:name" element={<SingleCountry />} />
             <Route path="*" element={<Error />} />
          </Routes>
       </BrowserRouter>
