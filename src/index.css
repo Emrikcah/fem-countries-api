@@ -19,6 +19,10 @@ html {
       @apply text-light-mode-text dark:text-white text-sm
    }
 
+   .search-input{
+      @apply shadow appearance-none  rounded w-full md:w-[343px] py-2 px-3  leading-tight placeholder-shown:pl-20  placeholder-light-mode-input dark:placeholder-white bg-light-mode-bg dark:bg-dark-mode-elements focus:outline-none
+   }
+
    
 }
 
