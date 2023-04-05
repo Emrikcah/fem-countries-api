@@ -6,9 +6,11 @@ import { AppProvider } from "./context/Context";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-   <React.StrictMode>
+   
       <AppProvider>
          <App />
       </AppProvider>
-   </React.StrictMode>
+   
 );
+
+//remove react strictmode for now. i dont want duplicate values showing up in  the console
