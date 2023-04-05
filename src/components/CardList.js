@@ -8,16 +8,15 @@ import { AppContext } from "../context/Context";
 
 const CardList = () => {
    const { loading, countries } = useContext(AppContext);
+   console.log(countries.length, 'countries.length');
 
    if (loading) {
       return <Loading />;
    }
 
-   // if (countries.length < 1) {
-   //  return(
-   //    <h2>No Countries to show</h2>
-   //  )
-   // }
+   if (countries.length < 1) {
+      return <h2>No Countries to show</h2>;
+   }
    return (
       <section className="container mx-auto">
          <div className="md:flex justify-between pt-6 px-4 mb-12">
